@@ -40,8 +40,20 @@ const Application = () => {
         setGeneratedVideo('/videos/ziad.mp4');
       } else if (imageName === 'ahmed.png' && audioName === 'ziad.wav') {
         setGeneratedVideo('/videos/ziad2.mp4');
+      } 
+      else if (imageName === 'avatar.png' && audioName === 'avatar.wav') {
+        setGeneratedVideo('/videos/avatar.mp4');
+      } 
+      else if (imageName === 'drshady.png' && audioName === 'drshady.wav') {
+        setGeneratedVideo('/videos/drshady.mp4');
+      } 
+      else if (imageName === 'burn.png' && audioName === 'burn.wav') {
+        setGeneratedVideo('/videos/burn.mp4');
+      }
+      else if (imageName === 'drshady.png' && audioName === 'eng.wav') {
+        setGeneratedVideo('/videos/drshady2.mp4');
       } else {
-        alert('❌ No matching video found for the uploaded image and audio.');
+        alert('❌ No video found for the uploaded image and audio.');
         setGeneratedVideo(null);
       }
 

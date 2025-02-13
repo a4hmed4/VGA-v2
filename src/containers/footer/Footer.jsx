@@ -31,9 +31,9 @@ const Footer = () => (
       </div>
       <div className="vga__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Semester 6</p>
+        {/* <p>Semester 6</p>
         <p>Spring</p>
-        <p>AI327 - Work-based Professional Project in Artificial Intelligence(II)</p>
+        <p>AI327 - Work-based Professional Project in Artificial Intelligence(II)</p> */}
       </div>
     </div>
 
